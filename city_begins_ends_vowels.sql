@@ -11,3 +11,9 @@ SELECT DISTINCT city
   where LEFT(city,1) in ('a','e','i','o','u')
     and RIGHT(city,1) in ('a','e','i','o','u')
 
+
+/*
+The RIGHT() function extracts a number of characters from a string (starting from right).
+
+The LEFT() function extracts a number of characters from a string (starting from left).
+ */
